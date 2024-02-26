@@ -1,0 +1,15 @@
+The constructor() method is the best place to initialize our state
+
+The getDerivedStateFromProps() is a rarely used lifecycle method and is the best place to set the state object based on the initial props.
+
+The shouldComponentUpdate() specifies whether React should continue with the rendering or not.
+
+The render() method is the most used and compulsory lifecycle method.
+
+The getSnapshotBeforeUpdate() method has access to the props and state even after the update.
+
+The componentDidMount() is the most common and widely used lifecycle method and is called after the component is rendered. You can also use this method to call external data from the API.
+
+The componentDidUpdate() method is called after the component is updated in the DOM and is the best place in updating the DOM in response to the change of props and state.
+
+The componentWillUnmount() happens just before the component unmounts and is destroyed and is used for cleanup actions like canceling API calls.
